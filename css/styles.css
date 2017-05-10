@@ -159,5 +159,9 @@ h3{
     font-size: 23px;
     text-align: center;
 }
-
+#changes{
+    font-size: 25px;
+    text-align: right;
+    color: crimson;
+}
 
