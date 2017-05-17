@@ -1,152 +1,101 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Школа мудрої сови</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <div id="tree" >
-    <section id="main-page">
-       <ul class="menu">
-           <li><a href="#contacts">Контакти</a></li>
-           <li><a href="#our-gallery">Галерея</a> </li>
-           <li><a href="#news">Новини</a> </li>
-           <li><a href="#our-service">Наші послуги</a> </li>
-           <li><a href="#about-us">Про нас</a> </li>
-           <li><a href="#main-page">Головна</a> </li>
-       </ul>
-       <br>
-       <h1 id="main">ШКОЛА МУДРОЇ СОВИ</h1>
-       <img id="mpicture" src="img/owl-1.gif" alt="Сова">
-       <h1 id="subtitle">cтудія дитячого розвитку</h1>
-       <h1 id="changes">!!зміни и flexbox в розділі НОВИНИ</h1>
-     </section>
-
-    <section id="about-us">
-       <h1 id="pro-nas">ПРО НАС</h1>
-       <h1 id="pro-nas-subtitle">Шановні батьки!</h1>
-       <p id="pro-nas-text">
-           Робота нашої студії направлена ​​на своєчасне гармонійний розвиток Ваших діток.
-           Нашими головними відмітними рисами є: уважні і турботливі педагоги, атмосфера домашнього затишку та індивідуальний підхід до кожного малюка.
-           Заняття в студії побудовані з урахуванням вікових особливостей та потреб дітей, включають в себе ігри та рухливі вправи. Ви зможете підібрати найбільш цікаве саме для вашої дитини напрямок: музичне, танцювальне, творче заняття і т.д.
-           Невеликі по наповненості групи дають можливість педагогу приділити достатньо уваги кожному малюку.
-           Нехай дитинство буде пізнавальним, веселим, яскравим і повним спогадів!
-       </p>
-       <img src="img/boy.jpg" width="400" height="230"  alt="Хлопчик">
-       <img src="img/children.jpg" width="400" height="230" alt="Діти">
-       <img src="img/book.jpg" width="400" height="230" alt="Книга">
-       <h1>Наші викладачі</h1>
-       <p>Фото,імена вчителів.</p>
-    </section>
-    </div>
-    <section id="our-service">
-       <h1>НАШІ ПОСЛУГИ</h1>
-       <p>У програмі школи дошкільнят вчиться читати, писати, учений, розвиває пам'ять, логіка, уяву, мислення,
-           математичні навички, знайомство з навколишнім світом і його структурування, музичні хвилинки, казкотерапія.</p>
-       <ul>
-           <li>Підготовка руки до листа (штрихування, пальчикова гімнастика)</li>
-           <li>Логічні, завдання на увагу, на міркування</li>
-           <li>Вивчення математики (прямий і зворотний рахунок, знайомство з десятковою системою, геометричні фігури,
-               дії додавання і віднімання, вправи на порівняння</li>
-           <li>Тренування дрібна й велика моторика</li>
-           <li>Навчання грамоти (букви вивчення, звуки, склади, розвиток зв'язного мовлення, фонетичний слух)</li>
-           <li>Тематичне знайомство з навколишнім світом (елементарні географічні навички, природа навколо нас, уроки
-               ввічливості, розвиток концентрації уваги)</li>
-           <li>Псіхологічні аспекти підготовки дитини до школи</li>
-       </ul>
-       <img id="deti-1" src="img/children-1.png" alt="Діти" >
-       <h1>Англійська мова</h1>
-       <ul>
-           <li>Educational games</li>
-           <li>Grammar</li>
-           <li>Speaking</li>
-       </ul>
-       <p>Заняття проходить в ігровій формі, що захоплююче для дітей у віці 3-х років, але в свою чергу і пізнавально,
-           так як малюки вивчають окремі слова, згідно з тематикою уроку, а також використовують словосполучення і
-           словообороти і вчаться їх застосовувати.</p>
-
-   </section>
-    <section id="news">
-        <h1 id="news-h-font">НОВИНИ</h1>
-        <div class="flex-container">
-            <div class="flex-container">
-                <div class="item f1">
-                    <div class="image"><img src="img/news/books.jpg" alt=""></div>
-                    <div class="text">
-                        <h3 >Нові підручники!</h3>
-                        <p>Подарунок від спонсорів для нашої школи.</p>
-                        <a href="#" class="button">Читати...</a></div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Школа мудрої сови</title>
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-box">
+                <div class="logo">
                 </div>
-                <div class="item f2">
-                    <div class="image"><img src="img/news/cartoon.jpg" alt=""></div>
-                    <div class="text">
-                        <h3>Перегляд мультфільмів!</h3>
-                        <p>8 березня вібдувався перегляд мультфільму "Мадагаскар" у власному кінозалі.</p>
-                        <a href="#" class="button">Читати...</a></div>
+                <div class="caption">
+                    <h1>FLEXBOX ПОКИ ЩО КОЛЬОРОВІ, ЩОБ ВІДРІЗНЯТИ</h1>
                 </div>
-                <div class="item f3">
-                    <div class="image"><img src="img/news/play-and-study.jpg" alt=""></div>
-                    <div class="text">
-                        <h3>Граємо і вчимося!</h3>
-                        <p>Нова методика навчання.</p>
-                        <a href="#" class="button">Читати...</a></div>
-                </div>
-                <div class="item f4">
-                    <div class="image"><img src="img/news/b-day.jpg" alt=""></div>
-                    <div class="text">
-                        <h3>День народження!</h3>
-                        <p>5 березня відсвяткували День народження Дмитрика.</p>
-                        <a href="#" class="button">Читати...</a></div>
-                </div>
-                <div class="item f5">
-                    <div class="image"><img src="img/news/sea.jpeg" alt=""></div>
-                    <div class="text">
-                        <h3>Поїздка на море!</h3>
-                        <p>25-26 червня плануеться поїздка до Одеси.</p>
-                        <a href="#" class="button">Читати...</a></div>
-                </div>
-                <div class="item f6">
-                    <div class="image"><img src="img/news/teacher.jpg" alt=""></div>
-                    <div class="text">
-                        <h3>Відкриття групи з англійської!</h3>
-                        <p>Для дітей 5-6 років створена група з новим викладачем.</p>
-                        <a href="#" class="button">Читати...</a></div>
+                <div class="menu"> NAVBAR
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="our-gallery">
-        <h1>ГАЛЕРЕЯ</h1>
-        <p>Пізніше додам фото</p>
+            <div class="carousel">CAROUSEL
+            </div>
+        </header>
 
-    </section>
-    <section id="contacts">
-        <h1 id="hcont">КОНТАКТИ</h1>
-        <p id="cont-text">Ми знаходимось за адресою: <br>
-        м.Олешки, вул. Першотравнева, 194 <br>
-        Тел. +380509272419</p>
-        <form method="POST" action="https://formspree.io/vmartynova99@gmail.com">
-            <label>Ім'я:
-                <input type="text" name="name" required>
-            </label>
-            <br>
-            <label>Прізвище:
-                <input type="text" name="surname" required>
-            </label>
-            <br>
-            <label>Вік дитини:
-                <input type="text" name="age" pattern="[1-9]{1}" required >
-            </label>
-            <br>
-            <textarea placeholder="Ваше повідомлення"> </textarea>
-            <br>
-            <input type="submit" value="Надіслати">
-        </form>
+        <main>
+            <div class="main-box">
+                <div class="about-as">ПРО НАС
+                    <div class="text-about-us">...текст...
+                    </div>
+                    <div class="img1">IMG
+                    </div>
+                    <div class="img2">IMG
+                    </div>
+                    <div class="img3">IMG
+                    </div>
+                </div>
 
+                <div class="service">Наші послуги
+                    <div class="text-service">... текст...
+                    </div>
+                    <div class="img1">IMG
+                    </div>
+                    <div class="img2">IMG
+                    </div>
+                </div>
 
-    </section>
-</body>
+                <div class="news">НОВИНИ
+                    <div class="flex-container">
+                        <div class="item f1">
+                            <div class="image"><img src="img/news/books.jpg" alt=""></div>
+                            <div class="text">
+                                <h3 class="h3-news">Нові підручники!</h3>
+                                <a href="#" class="button">Читати...</a></div>
+                        </div>
+                        <div class="item f2">
+                            <div class="image"><img src="img/news/cartoon.jpg" alt=""></div>
+                            <div class="text">
+                                <h3 class="h3-news">Мультфільм!</h3>
+                                <a href="#" class="button">Читати...</a></div>
+                        </div>
+                        <div class="item f3">
+                            <div class="image"><img src="img/news/play-and-study.jpg" alt=""></div>
+                            <div class="text">
+                                <h3 class="h3-news">Граємо і вчимося!</h3>
+                                <a href="#" class="button">Читати...</a></div>
+                        </div>
+                        <div class="item f4">
+                            <div class="image"><img src="img/news/b-day.jpg" alt=""></div>
+                            <div class="text">
+                                <h3 class="h3-news">День народження!</h3>
+                                <a href="#" class="button">Читати...</a></div>
+                        </div>
+                        <div class="item f5">
+                            <div class="image"><img src="img/news/sea.jpeg" alt=""></div>
+                            <div class="text">
+                                <h3 class="h3-news">Поїздка на море!</h3>
+                                <a href="#" class="button">Читати...</a></div>
+                        </div>
+                        <div class="item f6">
+                            <div class="image"><img src="img/news/teacher.jpg" alt=""></div>
+                            <div class="text">
+                                <h3 class="h3-news">Відкриття групи!</h3>
+                                <a href="#" class="button">Читати...</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery">ГАЛЕРЕЯ
+                </div>
+                <div class="contacts">КОНТАКТИ
+
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer">FOOTER
+            </div>
+        </footer>
+    </body>
 </html>

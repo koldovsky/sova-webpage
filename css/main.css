@@ -1,0 +1,128 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    max-width:1024px ;
+    min-width: 1000px;
+    margin: 0 auto;
+    background-image: url("../img/bk.jpg");
+}
+.main-box{
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff8c8;
+    width: 1024px;
+    height: 3000px;
+    flex-wrap: wrap;
+}
+.about-as{
+    display: -webkit-flex;
+    display: flex;
+    background-color: #ffcf32;
+    width: 90%;
+    height: 700px;
+    border-radius: 10px;
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.text-about-us{
+    background-color: #ae9bff;
+    width: 1024px;
+    height: 400px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+.img1{
+    background-color: #74ffe9;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img2{
+    background-color: #32ff9d;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img3{
+    background-color: #b9ff04;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.service{
+    display: -webkit-flex;
+    display: flex;
+    background-color: #ffbb49;
+    top: 0;
+    width: 1024px;
+    height: 500px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.text-service{
+    background-color: #5bb8ff;
+    width: 1024px;
+    height: 200px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+.news{
+    display: -webkit-flex;
+    display: flex;
+    background-color: #eaff52;
+    top: 0;
+    width: 1024px;
+    height: 670px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.flex-container{
+    display: flex;
+    max-width: 1300px;
+    max-height: 5000px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    align-content: space-around;
+    text-align: center;
+}
+.item {
+    padding: 5px 10px;
+    border:5px solid #fdff33;
+    background: #fffacd;
+    border-radius: 3px;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+.image img{
+    width: 240px;
+    height: 150px;
+}
+.h3-news{
+    color: #213aff;
+    font-family:"Comic Sans MS";
+    font-size: 23px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    background-color: #6507ff;
+    width: 100%;
+    height: 360px;
+}
+.contacts{
+    display: flex;
+    background-color: #ffb6cf;
+    width: 100%;
+    height: 450px;
+}
