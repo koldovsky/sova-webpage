@@ -1,55 +1,64 @@
-html{
-    overflow-x: hidden;
-}
+
 body{
-    max-width:1024px ;
-    min-width: 1000px;
+    max-width:980px ;
     margin: 0 auto;
-    background-image: url("../img/bk.jpg");
+    background-image: url("../img/background.jpg");
 }
 .main-box{
     display: -webkit-flex;
     display: flex;
-    background-color: #fff8c8;
-    width: 1024px;
+    background-color: #fcfff2;
+    width: 100%;
     height: 2800px;
     flex-wrap: wrap;
+}
+#pro-nas-subtitle{
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 40px;
+    color: #060606;
 }
 .about-as{
     display: -webkit-flex;
     display: flex;
-    background-color: #ffcf32;
-    width: 90%;
-    height: 700px;
+    background-image: url("../img/cloud.png");
+    width: 100%;
+    height: 600px;
     border-radius: 10px;
     margin-left: 5%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     flex-wrap: wrap;
 }
 .text-about-us{
-    background-color: #ae9bff;
-    width: 1024px;
-    height: 400px;
+    width: 100%;
     border-radius: 10px;
     align-self: flex-start;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    color: #510d4f;
+    font-size: 20px;
 }
 .img1{
     background-color: #74ffe9;
-    width: 300px;
-    height: 200px;
+    width: 40%;
+    height: 250px;
     border-radius: 10px;
 }
 .img2{
-    background-color: #32ff9d;
-    width: 300px;
-    height: 200px;
+    background-color: #74ffe9;
+    width: 40%;
+    height: 250px;
     border-radius: 10px;
 }
-.img3{
-    background-color: #b9ff04;
-    width: 300px;
-    height: 200px;
+#children-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#girl-with-book-img{
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 .service{
@@ -57,7 +66,7 @@ body{
     display: flex;
     background-color: #ffbb49;
     top: 0;
-    width: 1024px;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
     justify-content: space-around;
@@ -66,7 +75,7 @@ body{
 }
 .text-service{
     background-color: #5bb8ff;
-    width: 1024px;
+    width: 100%;
     height: 200px;
     border-radius: 10px;
     align-self: flex-start;
@@ -76,16 +85,17 @@ body{
     display: flex;
     background-color: #eaff52;
     top: 0;
-    width: 1024px;
+    width: 100%;
     height: 670px;
     border-radius: 10px;
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+    min-width: 50%;
 }
 .flex-container{
     display: flex;
-    max-width: 1300px;
+    max-width: 100%;
     max-height: 5000px;
     flex-direction: row;
     justify-content: space-between;
@@ -101,11 +111,11 @@ body{
     background: #fffacd;
     border-radius: 3px;
     margin: 20px;
-    width: 250px;
+    width: 25%;
     height: 250px;
 }
 .image img{
-    width: 240px;
+    width: 100%;
     height: 150px;
 }
 .h3-news{
@@ -122,7 +132,31 @@ body{
 }
 .contacts{
     display: flex;
+    justify-content: center;
     background-color: #ffb6cf;
     width: 100%;
     height: 450px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
 }
